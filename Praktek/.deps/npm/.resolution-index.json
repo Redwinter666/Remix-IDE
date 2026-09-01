@@ -1,0 +1,10 @@
+{
+  "contracts/tes/P1/SimpleStorage.sol": {
+    "__sources__": {
+      "contracts/tes/P1/SimpleStorage.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract SimpleStorage {\r\n    // Tipe Data Dasar\r\n    uint256 my_integer = 10;\r\n    bool my_boolean = true;\r\n    string my_string = \"hello world!\";\r\n    address my_address = 0x5077fF71E0e73CcF3fD6023e056c08d21D9AD424;\r\n    bytes my_bytes = \"hello world!\";\r\n\r\n    uint256 public favoriteNumber;\r\n\r\n    // Struct\r\n    struct People {\r\n        uint256 favoriteNumber;\r\n        string name;\r\n    }\r\n\r\n    People public person = People({favoriteNumber: 2, name: \"Patrik\"});\r\n\r\n    // Array Dinamis untuk Struct\r\n    People[] public people;\r\n\r\n    // Fungsi untuk menyimpan angka favorit\r\n    function store(uint256 _favoriteNumber) public {\r\n        favoriteNumber = _favoriteNumber;\r\n    }\r\n\r\n    // Fungsi untuk menambahkan data ke array people\r\n    function addPerson(string memory _name, uint256 _favoriteNumber) public {\r\n        people.push(People(_favoriteNumber, _name));\r\n    }\r\n}",
+        "file": "contracts/tes/P1/SimpleStorage.sol"
+      }
+    }
+  }
+}
