@@ -6,7 +6,7 @@ contract SimpleStorage {
     uint256 my_integer = 10;
     bool my_boolean = true;
     string my_string = "hello world!";
-    address my_address = 0x5077fF71E0e73CcF3fD6023e056c08d21D9AD424;
+    address my_address = 0xCb3c94376eE0fCFA8780A97aa7eEfbE263B933EB;
     bytes my_bytes = "hello world!";
 
     uint256 public favoriteNumber;
