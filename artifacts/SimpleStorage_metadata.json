@@ -105,7 +105,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Praktek/contracts/tes/P1/SimpleStorage.sol": "SimpleStorage"
+			"contracts/tes/P1/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -119,12 +119,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Praktek/contracts/tes/P1/SimpleStorage.sol": {
-			"keccak256": "0x435e5ebf0f814457c6b05691ceb2ccefa8b36f35e40feb7ee1bc0b9cc067daa9",
+		"contracts/tes/P1/SimpleStorage.sol": {
+			"keccak256": "0x3c1e85ef69cfb37df2df660fdb45f5505c0c5ed642da5d21f50cf62aee755ead",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1fd9488dbe25174eecc8d42002963c2371c44724ea445749e5410db99b66d2f5",
-				"dweb:/ipfs/QmXq3YFdwW3F3gtUVwccQB6PmfWLuFGf14z9DA1BkkLxHD"
+				"bzz-raw://80113d8e7589c4a0c0e23968848d2a54973671595a096ef924b23513e6d47fdd",
+				"dweb:/ipfs/QmPZfs726S82uEs14zMW2okpeo7PBQmmGwtDEsnpFhFqLL"
 			]
 		}
 	},
